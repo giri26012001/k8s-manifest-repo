@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: sample-app
-        image: docker.io/library/python:3.9-slim # Placeholder image until Jenkins updates it
+        image: docker.io/giri26012001/sample-app:6
         ports:
         - containerPort: 5000
